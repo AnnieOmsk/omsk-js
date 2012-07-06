@@ -30,29 +30,62 @@
       <section id="main_content">
         <h3>Добро пожаловать в Omsk JavaScript User Group!</h3>
 
-<p>В данный момент вы видите заглушку. Со временем она превратится в визитку нашего сообщества.</p>
+        <p>В данный момент вы видите заглушку. Со временем она превратится в визитку нашего сообщества.</p>
+        
+        <div>
+          <div class="main-info">
 
-<h3>Ближайшие мероприятия</h3>
-
-<p>
-13 июля 2012 года в 18:00 состоится первая встреча по адресу ул. Учебная д. 83 каб. 212.
-</p>
-<p>
-Докладчик: Александр Яткевич, тема: JavaScript от простого к сложному.
-Особенно рекомендуется тем, кто имеет опыт работы на JS 1-2 года либо новичкам. Зовите всех желающих, даже не очень опытных разработчиков.
-</p>
-<p>
-Также планируется обсудить дальнейшие мероприятия сообщества за пиццей.
-</p>
-
-<h3>Контакты</h3>
-
-<p>Email: <a href="mailto:aloha@7bits.it">aloha@7bits.it</a></p>
-
-<p>Twitter: <a href="http://twitter.com/omskjs">@OmskJS</a>, <a href="http://twitter.com/_7bits">@_7bits</a></p>
+            <h3>Ближайшие мероприятия.</h3>         
+            <p>
+            13 июля 2012 года в 18:00 состоится первая встреча по адресу ул. Учебная д. 83 каб. 212.</p>
+            <p>Докладчик: Александр Яткевич, тема: JavaScript от простого к сложному.
+            Особенно рекомендуется тем, кто имеет опыт работы на JS 1-2 года либо новичкам. Зовите всех желающих, даже не очень опытных разработчиков.
+            </p>
+            <p>Также планируется обсудить дальнейшие мероприятия сообщества за пиццей.
+            </p>
+            
+            <h3>Контакты</h3> 
+            
+          	<p>Email: <a href="mailto:aloha@7bits.it">aloha@7bits.it</a></p>
+          
+          	<p>Twitter: @OmskJS, @_7bits</p>
+          </div>
+          	
+          	<div class="tw-widget">
+              <script>
+                	new TWTR.Widget({
+                	  version: 2,
+                	  type: 'profile',
+                	  interval: 6000,
+                	  title: 'Omsk Js User Group',
+                	  width: 250,
+                	  height: 300,
+                	  theme: {
+                	    shell: {
+                	      background: '#B5E853',
+                	      color: '#006400'
+                	    },
+                	    tweets: {
+                	      background: '#000000',
+                	      color: '#ffffff',
+                	      links: '#B5E853'
+                	    }
+                	  },
+                	  features: {
+                	    scrollbar: false,
+                	    loop: true,
+                	    live: true,
+                	    hashtags: true,
+                	    timestamp: true,
+                	    avatars: true,
+                	    toptweets: true,
+                	    behavior: 'default'
+                	  }
+                	}).render().setUser('@OmskJS').start(); 
+            	</script>
+          	</div>
+        </div>
       </section>
     </div>
-
-    
   </body>
 </html>
