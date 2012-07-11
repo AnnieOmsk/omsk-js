@@ -1,4 +1,4 @@
-$max-width: 1200px !default;
+$max-width: 800px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -17,6 +17,7 @@ $indented-lists: false !default;
 $header-font-size: 1em !default;
 $header-padding-top: 1.5em !default;
 $header-padding-bottom: 1.5em !default;
+@mixin main_container {width: 90%; max-width: $max-width; margin: 0 auto;};
 
 .group { @include pie-clearfix; }
 
@@ -42,12 +43,23 @@ $header-padding-bottom: 1.5em !default;
     }
   }
 }
+#main {
+  @include main_container;
+}
+
+hgroup {
+  @include main_container;
+}
 
 body {
   -webkit-text-size-adjust: none;
-  max-width: $max-width;
   position: relative;
-  margin: 0 auto;
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: $heading-font-family;
   > header, > nav, > footer, #content > article, #content > div > article, #content > div > section {
     @extend .group;
     padding-left: $pad-min;
