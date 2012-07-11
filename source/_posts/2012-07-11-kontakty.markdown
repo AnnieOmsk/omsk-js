@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Контакты"
+date: 2012-07-11 16:02
+comments: true
+categories:
+---
+
+Email: [aloha@7bits.it](mailto:aloha@7bits.it)
+
+ВКонтакте: [Omsk Js User Group](http://vk.com/club40621819)
+
+Twitter: [@OmskJS](https://twitter.com/OmskJS), [@_7bits](https://twitter.com/_7bits)
